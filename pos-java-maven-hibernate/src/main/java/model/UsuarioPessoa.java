@@ -28,6 +28,11 @@ public class UsuarioPessoa {
 	public Long getId() {
 		return id;
 	}
+	@Override
+	public String toString() {
+		return "UsuarioPessoa [id=" + id + ", nome=" + nome + ", sobrenome=" + sobrenome + ", email=" + email
+				+ ", login=" + login + ", senha=" + senha + ", idade=" + idade + "]";
+	}
 	public void setId(Long id) {
 		this.id = id;
 	}
